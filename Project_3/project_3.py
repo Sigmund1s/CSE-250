@@ -88,6 +88,7 @@ results_at_bats_avg_1
 #%%
 # Print for markdown
 print(results_at_bats_avg_1.to_markdown())
+
 # %%
 ### PART 3
 # WHERE
@@ -105,7 +106,7 @@ GROUP BY
 HAVING
     at_bats > 100
 ORDER BY
-    at_bats_average DESC
+    at_bats DESC
 LIMIT 5
 '''
 results_at_bats_avg_2 = dw.query('byuidss/cse-250-baseball-database', r).dataframe

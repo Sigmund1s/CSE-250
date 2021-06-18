@@ -59,11 +59,11 @@ This three-part question requires you to calculate batting average (number of hi
 
 |    |   years_played | playerid   |   hits |   at_bats |   at_bats_average |
 |---:|---------------:|:-----------|-------:|----------:|------------------:|
-|  0 |              7 | meyerle01  |    512 |      1432 |             0.492 |
-|  1 |              9 | mcveyca01  |    869 |      2513 |             0.431 |
-|  2 |             10 | jacksjo01  |   1714 |      4801 |             0.408 |
-|  3 |              1 | hazlebo01  |     54 |       134 |             0.403 |
-|  4 |              8 | barnero01  |    835 |      2299 |             0.401 |
+|  0 |             25 | rosepe01   |   4256 |     14053 |             0.273 |
+|  1 |             23 | aaronha01  |   3771 |     12364 |             0.28  |
+|  2 |             23 | yastrca01  |   3419 |     11988 |             0.266 |
+|  3 |             21 | ripkeca01  |   3184 |     11551 |             0.128 |
+|  4 |             24 | cobbty01   |   4189 |     11436 |             0.238 |
 
 ### GRAND QUESTION 3
 Pick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc.). Write an SQL query to get the data you need. Use Python if additional data wrangling is needed, then make a graph in Altair to visualize the comparison. Provide the visualization and its description.
